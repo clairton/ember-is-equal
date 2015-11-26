@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
-export function isEqual(v1, v2) {
-	return v1 === v2;
+export function isEqual(values) {
+  return values[0] === values[1];
 }
 
 export default Ember.Helper.helper(isEqual);
