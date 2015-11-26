@@ -1,25 +1,19 @@
-# Is-equal
-
-This README outlines the details of collaborating on this Ember addon.
-
-## Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+#is-equal
+ Test values is equals in ember
+ 
+ ```hbs
+ {{is-equal 1 '1'}} => false
+ {{is-equal 1 2}} => false
+ {{is-equal 'a' 'a'}} => true
+ 
+ 
+ {{#if (is-equal a b)}}
+  ...
+ {{/if}}
+ ```
+ 
+ Add in your package.json
+ 
+ ```javascript
+  "is-equal": "clairton/is-equal#v0.2.1"
+ ```
