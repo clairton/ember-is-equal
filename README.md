@@ -1,4 +1,4 @@
-#is-equal
+#ember-is-equal
  Test values is equals in ember
 
  ```hbs
@@ -15,5 +15,8 @@
  Add in your package.json
 
  ```javascript
-  "is-equal": "clairton/ember-is-equal#v0.2.1"
+  "ember-is-equal": "clairton/ember-is-equal#v0.2.1"
+
+  or
+  "ember-is-equal": "clairton/ember-is-equal#v0.2.1"
  ```
