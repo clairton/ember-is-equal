@@ -1,7 +1,7 @@
 {
   "name": "ember-is-equal",
   "version": "0.2.1",
-  "description": "Equals helper emberjs.",
+  "description": "Equal helper emberjs.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -36,7 +36,8 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-is-equal"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
